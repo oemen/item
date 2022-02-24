@@ -1,0 +1,163 @@
+        
+        /* 尾部css */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .wei {
+            width: 100%;
+            height: 280px;
+            margin: 0px auto;
+            background-color: #505050;
+        }
+
+        .big {
+            width: 1300px;
+            height: 280px;
+            margin: 0px auto;
+        
+            
+        }
+        .big2{
+            width: 1050px;
+            margin: 0px auto;
+        }
+        .erweima {
+            width: 150px;
+            height: 150px;
+           
+            float: left;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left:30px;
+        }
+
+        .quan {
+            width: 132px;
+            margin-left:30px;
+            float: left;
+            overflow: hidden;
+           
+            margin-top: 20px;
+        }
+
+        li {
+            list-style: none;
+            font-size: 12px;
+            color: #9F9C92;
+
+        }
+
+        ul {
+            float: left;
+            margin-top: 20px;
+            margin-left:30px;
+           
+        }
+
+        .img1 {
+            width: 150px;
+            height: 150px;
+
+        }
+
+        .img2 {
+
+            width: 130px;
+            height: 46px;
+            margin-bottom: 16px;
+        }
+
+        .wenzi1 {
+            font-size: 12px;
+            margin-top: 10px;
+            color: #9F9C92;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .clear{
+            clear: both;
+        }
+        a {
+            text-decoration: none;
+            color: #9F9C92;
+            display: inline-block;
+        }
+        .suo{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 12px;
+     }
+     a:hover{
+         color:green;
+         
+     }
+
+     /* 渲染 */
+     /* 报告精选 */
+     .kuangzhu{
+         width: 100%;
+         height: 640px;
+         background:#F7F7F7;
+     }
+    .baogao{
+        width: 1300px;
+        height: 30px;
+        margin: 0px auto;
+        background: #F7F7F7;
+        
+    }
+    .list{
+        width:1300px;
+        height:610px;
+        overflow: hidden;
+        margin: 0px auto;
+        background: #F7F7F7;
+        
+    }
+    .kuang{
+        width: 280px;
+        height: 260px;
+        float: left;
+        margin: 20px 43px 20px 0px;
+        border: 1px solid #A9A9AC;
+        border-radius: 10px;
+        overflow: hidden;
+         background: #fff;
+    }
+    .xuan1{
+        width: 280px;
+        /* height: 220px; */
+    }
+    .wen1{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 50px;
+    }
+  
+    .wen2{
+        font-size: 12px;
+        color:#A9A9AC;
+        float: left;
+         margin-left: 10px;
+       
+    }
+    .shu{
+        font-size: 12px;
+        color: #A9A9AC;
+       
+       
+    }
+    .you{
+         float: right;
+          margin-right: 10px;
+    }
+
+    /* 导购精选 */
