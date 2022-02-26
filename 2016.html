@@ -37,7 +37,10 @@
             <div class="tou1">
                 <h1 class="six">2016，这8支钢笔够你装逼一整年</h1>
                 <div class="mingzi">
-                    <div class="susu">苏苏</div>
+                    <img src="./img/tx.jpg" alt="" class="susutou">
+                    <div class="susu">
+
+                        苏苏</div>
                     <div class="shijian">2016-01-25</div>
                 </div>
 
@@ -204,7 +207,7 @@
                     <img src="./img/shareh_yj1.png" alt="" class="xinbb">
                     <div class="like1 like2">分享</div>
                 </div>
-           
+
                 <div class="fenxianga">
                     <div class="bshare-custom">
                         <a title="分享到QQ空间" class="bshare-qzone"></a>
@@ -218,12 +221,13 @@
                 </div>
             </div>
         </div>
-    </div><script type="text/javascript" charset="utf-8"
+    </div>
+    <script type="text/javascript" charset="utf-8"
         src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
     <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
 
     <!-- 分享 -->
-    
+
 
     <script>
         var xin = document.getElementsByClassName('xinxinx')[0];
@@ -234,25 +238,25 @@
         var xiaob = document.getElementsByClassName('xiaobig')[0];
         var fenxiang = document.getElementsByClassName('fenxianga')[0];
         var num = 15;
-       function ss(){
-                xin.style.display='none';
-                xinred.style.display='block'
-            }
-        xin.onclick=function(){           
-            ss()           
-            num ++;
+        function ss() {
+            xin.style.display = 'none';
+            xinred.style.display = 'block'
+        }
+        xin.onclick = function () {
+            ss()
+            num++;
             shu.innerHTML = num;
-            xinred.onclick = function (){
+            xinred.onclick = function () {
                 num++;
                 shu.innerHTML = num;
             }
-            
+
         }
-        fen.onclick=function(){
-            fen.style.display='none';
-            fen_.style.display='block';
-            xiaob.style.height=120+'px';
-            fenxiang.style.display='block';
+        fen.onclick = function () {
+            fen.style.display = 'none';
+            fen_.style.display = 'block';
+            xiaob.style.height = 120 + 'px';
+            fenxiang.style.display = 'block';
         }
     </script>
 

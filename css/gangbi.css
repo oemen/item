@@ -40,7 +40,7 @@
 }
 .mingzi{
     width: 1000px;
-    height:40px;
+    height:70px;
     overflow: hidden;
 }
 .susu{
@@ -48,6 +48,12 @@
     margin: 20px;
     color: #A1A8B4;
     overflow: hidden;
+}
+.susutou{
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+
 }
 .shijian{
     float: right;
