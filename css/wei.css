@@ -1,4 +1,106 @@
-        
+        /* 头部 */
+        *{
+    margin: 0;
+    padding: 0;
+}
+/* 状态栏 */
+.bigw{
+    border: 1px solid #ccc;
+    border-top: 1px;
+    width: 100%;
+    margin-top: 10px;    
+}
+.big{
+    width: 1000px;    
+    margin:auto;    
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.deng111{
+    color: red;
+}
+.jiguo>img{
+    width: 100px;
+    
+}
+.big>.jiguo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.first{
+    display: inline-block;
+    margin-left: 40px;
+}
+.first:hover{
+    color: orangered;    
+}
+.big>.right{
+    position: absolute;
+    right:0px;
+    top: 20px;
+}
+#right1{
+    position: absolute;
+    right:0px;
+    top: 0px;
+}
+.big>.right>a{
+    display: inline-block;
+    margin-left: 40px;    
+}
+.big>.right>a:hover{
+    color: orangered;  
+}
+.big>.right>button{
+    margin-left: 40px; 
+    color:orangered;
+    border: 1px orangered solid;
+    font-size: 12px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+/* 铺满 */
+.puman{
+    background:url(../img/original.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 250px;
+}
+.bntred{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    border: 1px;
+}
+.psmall>li{
+    margin-top: 15px;
+    text-align: right;
+}
+.sbu{
+    background-color: #F7D394;
+    font-size: 12px;    
+}
+.psmall{
+    color: #fff;
+    width: 200px;
+    list-style: none;
+    position: absolute;
+    top:20px;
+    right: 250px;
+    animation:move 2s;
+}
+@keyframes move {
+    0%{
+        transform: translate(200px,-200px);
+    }
+}
+
         /* 尾部css */
         * {
             margin: 0px;
@@ -13,7 +115,7 @@
             background-color: #505050;
         }
 
-        .big {
+        .big1 {
             width: 1300px;
             height: 280px;
             margin: 0px auto;
@@ -106,6 +208,12 @@
          height: 640px;
          background:#F7F7F7;
      }
+     .fafa{
+         float: right;
+         color: #FE5341;
+         overflow: hidden;
+         margin: -20px 50px 0px 0px;
+     }
     .baogao{
         width: 1300px;
         height: 30px;
@@ -161,3 +269,62 @@
     }
 
     /* 导购精选 */
+    .list2{
+        width: 1300px;
+        height:330px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    .list3{
+        width: 1300px;
+        height: 1250px;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    /* 酷玩 */
+    .wen3{
+        color:red;
+    }
+    .kuangzhu2{
+         width: 100%;
+         height: 1280px;
+         background:#F7F7F7;
+     }
+
+     /* 动画 */
+     .xuan1:hover{
+         animation: lalala 1s infinite;
+     }
+     @keyframes lalala{
+         0% {
+             opacity: 0.4;
+         }
+         50%{
+             opacity: 1;
+         }
+         100%{
+             opacity: 0.4;
+         }
+     } 
+     /* 加载 */
+     .jiazai{
+         width: 150px;
+         height: 20px;
+         text-align: center;
+         color: red;
+         position: relative;
+         margin: 0px auto;
+        
+     }
+     .jiantouxia{
+         position: absolute;
+         left: 0px;
+         top:7px;
+     }
+     .zhuanquan{
+         
+        display: none;
+         position: absolute;
+         left: 0px;
+     }
